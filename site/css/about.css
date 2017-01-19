@@ -1,12 +1,12 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     width: 100%;
-    height: 100px;
+    height: 5%;
     background-color: peachpuff;
 }
 
@@ -14,6 +14,7 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 10%;
 }
 
 .navigation {
@@ -21,11 +22,11 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 2em;
     width: 25%;
-    height: 200px;
     background-color: black;
     color: white;
+    font-family: 'Josefin Slab', serif;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1350px;
+    height: 80%;
     background: url("../img/bg.jpg") no-repeat center;
     background-size: cover;
     font-size: 2em;
@@ -42,8 +43,22 @@ main {
     text-shadow: 0 0 10px black;
 }
 
+.rubrikbox {
+    padding: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.rubrik {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 50px black;
+    font-family: 'Josefin Slab', serif;
+}
+
 .recipe {
-    width: 60%;
+    width: 90%;
     background-color: rgba(0,0,0,0.75);
     border: yellow 5px solid;
     border-radius: 30px;
@@ -51,6 +66,10 @@ main {
 }
 
 footer {
-    height: 100px;
+    height: 5%;
     background-color: red;
+}
+
+.container {
+    height: 100%;
 }

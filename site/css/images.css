@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -24,9 +24,9 @@ nav {
     font-size: 2em;
     width: 25%;
     height: 200px;
-    color: yellow;
-    background-color: blue;
-    border: 2px yellow solid;
+    color: white;
+    background-color: black;
+    font-family: 'Josefin Slab', serif;
 }
 
 main {
